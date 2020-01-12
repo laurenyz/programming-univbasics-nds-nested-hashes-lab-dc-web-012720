@@ -23,6 +23,7 @@ manifest = [{ name:  "Don Gately", occupation: "Live-in Staff" }, { name:  "Joel
 end
 
 def aoh_lookup(aoh, row, key)
+  aoh[row][key]
 end
 
 def aoh_update(aoh, row, key, new_value)
